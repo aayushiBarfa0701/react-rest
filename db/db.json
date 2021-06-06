@@ -1,0 +1,39 @@
+{
+  "login": [
+    {
+      "name": "anil",
+      "password": "anil@123"
+    }
+
+  ],
+  "restaurant": [
+    {
+      "id": 2,
+      "name": "McDonald",
+      "address": "Delhi",
+      "rating": "4.0",
+      "email": "mcdonald@test.com"
+    },
+    {
+      "name": "W B Restaurant",
+      "email": "wbrest@test.com",
+      "address": "Noida",
+      "rating": "4.9",
+      "id": 3
+    },
+    {
+      "name": "Dinesh Retro",
+      "email": "dinesh@test.com",
+      "address": "indore ",
+      "rating": "5.0",
+      "id": 6
+    },
+    {
+      "name": "aayu restro",
+      "email": "aayu@test.com",
+      "address": "indore",
+      "rating": "5.0",
+      "id": 7
+    }
+  ]
+}
