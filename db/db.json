@@ -4,7 +4,12 @@
       "name": "anil",
       "password": "anil@123"
     }
-
+  ],
+  "admin":[
+    {
+      "name": "aayu",
+      "password": "aayu@123"
+    }
   ],
   "restaurant": [
     {

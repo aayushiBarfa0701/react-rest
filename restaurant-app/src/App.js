@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  
 } from 'react-router-dom';
 
 import Home from "./components/Home";
@@ -15,12 +14,23 @@ import RestaurantUpdate from "./components/RestaurantUpdate"
 import Login from "./components/Login"
 import Logout from './components/Logout'
 import Protected from './components/Protected'
+import AdminLogin from './components/AdminLogin';
+import AdminDash from './components/AdminDash';
 function App() {
   return (
     <div className="App">
+     
       <Router> 
         <Route path="/login" render={props=>( <Login{...props}/>  )}></Route>
         <Route path="/logout"> <Logout/> </Route>
+        <Route path="/adminlogin" render={props=>( <AdminLogin{...props}/>  )} ></Route> 
+        <Route path="/admindash"> <AdminDash/> </Route>
+        {/* <Route path="/list"> <RestaurantList/> </Route>
+        <Route path="/create"> <RestaurantCreate/> </Route>
+        <Route path="/search"> <RestaurantSearch/> </Route>
+        <Route path="/update/:id" render={props=>(<RestaurantUpdate{...props}/>)}></Route>
+        <Route path="/detail"> <RestaurantDetail/> </Route>
+        <Route exact path="/"> <Home/> </Route> */}
         <Protected exact path="/" component={Home} />
         <Protected path="/details" component={RestaurantDetail} />
         <Protected path="/list" component={RestaurantList} />
