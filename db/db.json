@@ -5,7 +5,7 @@
       "password": "anil@123"
     }
   ],
-  "admin":[
+  "admin": [
     {
       "name": "aayu",
       "password": "aayu@123"
@@ -20,25 +20,18 @@
       "email": "mcdonald@test.com"
     },
     {
-      "name": "W B Restaurant",
-      "email": "wbrest@test.com",
-      "address": "Noida",
-      "rating": "4.9",
+      "name": "kfc",
+      "email": "kfc@test.com",
+      "address": "allahbad",
+      "rating": "4",
       "id": 3
     },
     {
-      "name": "Dinesh Retro",
-      "email": "dinesh@test.com",
-      "address": "indore ",
-      "rating": "5.0",
-      "id": 6
-    },
-    {
-      "name": "aayu restro",
-      "email": "aayu@test.com",
+      "name": "subway",
+      "email": "sbw@test.com",
       "address": "indore",
-      "rating": "5.0",
-      "id": 7
+      "rating": "3",
+      "id": 4
     }
   ]
 }

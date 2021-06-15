@@ -16,6 +16,7 @@ import Logout from './components/Logout'
 import Protected from './components/Protected'
 import AdminLogin from './components/AdminLogin';
 import AdminDash from './components/AdminDash';
+import Signup from './components/Signup'
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         <Route path="/logout"> <Logout/> </Route>
         <Route path="/adminlogin" render={props=>( <AdminLogin{...props}/>  )} ></Route> 
         <Route path="/admindash"> <AdminDash/> </Route>
+        <Route path="/signup"> <Signup/> </Route>
         {/* <Route path="/list"> <RestaurantList/> </Route>
         <Route path="/create"> <RestaurantCreate/> </Route>
         <Route path="/search"> <RestaurantSearch/> </Route>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
-import { faList,faHome,faPlus,faSearch,faUser,faUserLock } from '@fortawesome/free-solid-svg-icons'
+import { faList,faHome,faPlus,faSearch,faUser,faUserLock, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import {Navbar, Nav,Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
@@ -24,9 +24,9 @@ class NavBarMenu extends Component {
                                 </>
                                 :
                                 <>
-                                {/* <Nav.Link ><Link  style={{ textDecoration: 'none' }} to="/login"><FontAwesomeIcon icon={faUser}/> Login</Link></Nav.Link> */}
-                                <Nav.Link ><Link  style={{ textDecoration: 'none' }} to="/adminlogin"><FontAwesomeIcon icon={faUserLock}/> Admin Login </Link></Nav.Link>
-                                
+                                <Nav.Link ><Link  style={{ textDecoration: 'none' }} to="/adminlogin"><FontAwesomeIcon icon={faUserLock}/>Admin</Link></Nav.Link>
+                                <Nav.Link ><Link  style={{ textDecoration: 'none' }} to="/login"><FontAwesomeIcon icon={faUser}/> Login</Link></Nav.Link>
+                                <Nav.Link ><Link  style={{ textDecoration: 'none' }} to="/signup"><FontAwesomeIcon icon={faUserPlus}/> signUp</Link></Nav.Link>
                                 </>
                             } 
                             
